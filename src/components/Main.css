@@ -24,7 +24,7 @@ body{
 .container input{
     display: block;
     border: 2px solid #b1b1b1;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 80%;
     padding: 20px;
     font-size: 14px;
@@ -87,6 +87,16 @@ body{
     }
     .btn.btn-success{
         width: 30%;
+    }
+    .container input{
+        height: 40px;
+        width: 60%;
+    }
+    .container h3{
+        color: #aaaaaa;
+        margin-bottom: 30px;
+        text-align: left;
+        font-size: 16px;
     }
 }
 
