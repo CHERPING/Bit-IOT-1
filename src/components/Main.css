@@ -24,7 +24,7 @@ body{
 .container input{
     display: block;
     border: 2px solid #b1b1b1;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 80%;
     padding: 20px;
     font-size: 14px;
@@ -87,6 +87,10 @@ body{
     }
     .btn.btn-success{
         width: 30%;
+    }
+    .btn.btn-primary{
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .container input{
         height: 40px;
