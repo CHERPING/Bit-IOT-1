@@ -5,11 +5,11 @@ const Main = () => {
     return (
         <div class="container-fluid">
             
-            <div class="row ">
-                <div class="col-md-6 text-center">
-                    <img src={img1} ></img>
-                </div>
-                <div class="col-md-6 text-center">
+            <div class="row text-center ">
+                    <div class="left col-12 col-sm-6 col-md-6 col-lg-6 p-0">
+                        <img src={img1}></img>
+                    </div>
+                    <div class="right col-12 col-sm-6 col-md-6 col-lg-6 p-5">
                         <div class="container">
                             <h1 class="mt-4">สมัครสมาชิก</h1>
                             <h3>กรอกข้อมูลด้านล่างให้ครบถ้วน</h3>
